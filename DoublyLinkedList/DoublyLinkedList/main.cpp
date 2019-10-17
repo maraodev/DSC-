@@ -9,7 +9,7 @@ int main()
 	int condition = 0;
 	while (condition != 8)
 	{
-
+		//Main menu
 		cout << "============================================Menu============================================== " << endl << endl;
 		cout << "\t\t\t\tPress 1 to ADD a node AT START " << endl;
 		cout << "\t\t\t\tPress 2 to ADD a node AT LAST " << endl;
@@ -73,6 +73,6 @@ int main()
 		}
 	}
 
-	system("pause");
+	system("pause");//Used to pause the output of the screen before the program terminates/
 	return 0;
 }
