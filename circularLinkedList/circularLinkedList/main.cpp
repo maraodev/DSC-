@@ -69,6 +69,7 @@ int main()
 		{
 			condition = 8;
 		}
+		//should add else condition at the end for other inputs beyond 0-8, to avoid any error
 	}
 
 	system("pause");
